@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- <h1 id="heading">heading</h1>
+    <button>1</button>
+    <button>2</button>
+    <button>3</button>
+    <button>4</button>
+    <button>5</button>
+    <script>
+        let $ = document.querySelector.bind(document); // lấy 1
+        let $$ = document.querySelectorAll.bind(document); // lấy tất cả
+        console.log($("#heading"));
+        
+        // lặp qua NodoList
+        $$("button").forEach((btn) => {
+            btn.addEventListener("click"), (event) => {
+                // function ko tên gọi là function ẩn danh
+                console.log("clicked", event.target.innerText);
+            }
+        });
+    </script> -->
+
+
+    <form>
+        <label for="">Email</label>
+        <input type="text">
+        <label for="">Giới tính</label>
+        <input value="Nam" name="gender" type="radio"> Nam
+        <input value="Nữ" name="gender" type="radio"> Nữ
+        <input value="Khác" name="gender" type="radio"> khác
+    </form>
+    <script>
+        // lấy 1 phần tử duy nhất
+        let $ = document.querySelector.bind(document);
+        // lấy nhiều phần tử
+        let $$ = document.querySelectorAll.bind(document);
+        $$("input[name=gender]").forEach((gender) => {
+            gender.addEventListener("change", (event) => {
+                // kiểm tra phần tử đang được checked
+                if(event.target.checked){
+                    console.log(event.target.checked);
+                }
+            });
+        });
+
+        $$("button").forEach((btn) => {
+            btn.addEventListener("click"), (event) => {
+                console.log("clicked", event.target.innerText);
+            }
+        });
+
+        // bắt sự kiện submit form
+        $("#form").addEventListener("submit", (e) => {
+            // ngăn chặn sự kiện load lại trang
+            e.preventDefault();
+            console.log("submit form");
+        });
+    </script>
+</body>
+</html>

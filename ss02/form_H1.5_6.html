@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <h3>Thêm mới nhân viên</h3>
+        <div>
+            <label for="userName">Họ và tên</label>
+            <input name="userName" id="userName" type="text">
+        </div>
+        <br>
+        <div>
+            <label for="dateOfBirth">Ngày sinh đầy đủ</label>
+            <input name="dateOfBirth" id="dateOfBirth" type="date">
+        </div>
+        <br>
+        <div>
+            <label for="monthAndYear">Tháng và năm</label>
+            <input name="monthAndYear" id="monthAndYear" type="month">
+        </div>
+        <br>
+        <div>
+            <label for="">Thời gian</label>
+            <input type="time">
+        </div>
+        <br>
+        <div>
+            <label for="sex">Gới tính</label>
+            <input checked name="gender" type="radio"/> Nam
+            <input name="gender" type="radio"/> Nữ
+            <input name="gender" type="radio"/> Khác
+        </div>
+        <br>
+        <div>
+            <label for="email">Email</label>
+            <input id="email" type="text"><br>
+            <label for="pwd">Mật khẩu</label><br>
+            <input type="password" id="pwd" name="pwd" required minlength="8">
+        </div>
+        <div>
+            <label for="">Giới thiệu bản thân</label><br>
+            <textarea name="" id="" cols="30" rows="3"></textarea>
+        </div>
+        <div>
+            <label for="city">Thành phố</label>
+            <select name="city" id="city">
+                <option value="city">Hà Nội</option>
+                <option value="city">HCM</option>
+                <option value="">Đà Nẵng</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="">Hình ảnh</label>
+            <input type="file">
+        </div>
+        <div>
+            <label for="">Sở thích</label>
+            <input type="checkbox"/>Code
+            <input type="checkbox"/>Chơi game
+            <input type="checkbox"/>Bơi lội
+            <input type="checkbox"/>Đá bóng
+        </div>
+        <br>
+        <div>
+            <label for="">Tiến độ hoàn thành công việc</label>
+            <input type="range">
+        </div>
+        <br>
+        <div>
+            <label for="">Năm kinh nghiệm</label>
+            <input type="number" min="1" max="10">
+        </div>
+        <br>
+        <div>
+            <label for="">Tìm kiếm</label>
+            <input type="search">
+        </div>
+        <br>
+        <div>
+            <label for="">Màu sắc yêu thích</label>
+            <input type="color">
+        </div>
+        <br>
+        <div>
+            <input type="button" value="Huy">
+            <input type="reset" value="Làm mới">
+            <input type="button" value="Gửi">
+        </div>
+    </form>
+</body>
+</html>

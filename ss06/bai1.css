@@ -1,0 +1,13 @@
+#p-1{
+    color: blue;
+}
+
+#p-2{
+    color: #f73e3e;
+}
+
+.square{
+    width: 67%;
+    height: auto;
+    background-color: red;
+}

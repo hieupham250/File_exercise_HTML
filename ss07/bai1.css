@@ -1,0 +1,12 @@
+.square{
+    position: absolute;
+    background-color: #b9acac;
+    border-radius: 17%;
+}
+
+.notification{
+    position: absolute;
+    border-radius: 100%;
+    background-color: red;
+    border: 3px solid white;
+}

@@ -1,0 +1,12 @@
+#div1 {
+    transition-timing-function: linear;
+}
+#div2 {
+    transition-timing-function: linear;
+}
+#div3 {transition-timing-function: linear;
+}
+
+div:hover {
+    width: 300px;
+}

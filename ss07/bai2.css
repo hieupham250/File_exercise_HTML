@@ -1,0 +1,16 @@
+.post-container{
+    width: 300px;
+    border: 1px solid #dddddd;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.post-container img{
+    width: 100%; /*không bao giờ set hight cho ảnh*/
+}
+
+.post-container h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}

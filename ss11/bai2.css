@@ -1,0 +1,31 @@
+*  {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-top: -10px;
+}
+
+.box {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.item {
+    width: 140px;
+    height: 50px;
+    background-color: rgb(214, 214, 214);
+    line-height: 50px;
+    text-align: center;
+}
+
+img {
+    width: 140px;
+    height: 130px;
+}
